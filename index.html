@@ -14,58 +14,37 @@
             <h1>To-do list</h1>
             <div class="box">
                 <div class="sort">
-                    <!-- <img src="/image/Group 73.svg" alt="sort-icon"> -->
-                    <svg class="svg" width="25" height="15" viewBox="0 0 25 15" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="svg-one" width="25" height="15" viewBox="0 0 25 15" xmlns="http://www.w3.org/2000/svg">
                         <rect x="2.5" width="2.5" height="12.5"/>
                         <rect x="10" y="3.75" width="2.5" height="7.5" transform="rotate(-90 10 3.75)"/>
                         <rect x="10" y="8.75" width="2.5" height="10" transform="rotate(-90 10 8.75)"/>
                         <rect x="10" y="13.75" width="2.5" height="15" transform="rotate(-90 10 13.75)"/>
                         <path d="M3.75 15L0.502405 10.3125L6.9976 10.3125L3.75 15Z"/> -->
                     </svg>
+                    <svg class="svg-two" width="25" height="15" viewBox="0 0 25 15" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="5" y="15" width="2.5" height="12.5" transform="rotate(-180 5 15)"/>
+                        <rect x="10" y="3.75" width="2.5" height="7.5" transform="rotate(-90 10 3.75)"/>
+                        <rect x="10" y="8.75" width="2.5" height="10" transform="rotate(-90 10 8.75)"/>
+                        <rect x="10" y="13.75" width="2.5" height="15" transform="rotate(-90 10 13.75)"/>
+                        <path d="M3.75 6.55671e-07L6.99759 4.6875L0.502404 4.6875L3.75 6.55671e-07Z"/>
+                        </svg>
                 </div>
             </div>
             <div class="block-block">
-                <ul>
-                    <li><input type="text" class="input"></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <!-- <div class="block">
-                    <div class="left-block"></div>
-                    <div class="center-block">
-                    <input type="text" class="input"></div>
-                    <div class="right-block"><div class="close"></div></div>
+                <div class="todo">
+                    <ul class="todos">
+                        <li class="li"> <input type="text" class="input"> 
+                            <svg class="delet" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.5" width="19" height="19" rx="9.5" stroke="#C4C4C4"/>
+                            <path d="M6 6L14 14" stroke="#C4C4C4"/>
+                            <path d="M6 14L14 6" stroke="#C4C4C4"/>
+                            </svg>
+                        </li>
+                    </ul>
                 </div>
-                <div class="block">
-                    <div class="left-block"></div>
-                    <div class="center-block">
-                    <input type="text" class="input"></div>
-                    <div class="right-block"><div class="close"></div></div>
-                </div>
-                <div class="block">
-                    <div class="left-block"></div>
-                    <div class="center-block">
-                    <input type="text" class="input"></div>
-                    <div class="right-block"><div class="close"></div></div>
-                </div>
-                <div class="block">
-                    <div class="left-block"></div>
-                    <div class="center-block">
-                    <input type="text" class="input"></div>
-                    <div class="right-block"><div class="close"></div></div>
-                </div>
-                <div class="block">
-                    <div class="left-block"></div>
-                    <div class="center-block">
-                    <input type="text" class="input"></div>
-                    <div class="right-block"><div class="close"></div></div>
-                </div>
-                -->
             </div>
             <div class="block-button">
-                <button class="button">Добавить</button>
+                <button id="button" class="fas fa-button-alt">Добавить</button>
             </div>
             
             

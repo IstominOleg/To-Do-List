@@ -58,15 +58,17 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 286px;
-    height: 20%;
+    max-height: 160px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 7px;
+    overflow: auto;
     /* margin-bottom: 50px; */
     
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
     border-radius: 10px;
+    /* border: 1px solid red; */
 
 }
 
@@ -78,7 +80,7 @@ h1 {
     margin-right: auto;
     margin-top: 7px;
     margin-bottom: 14px;
-    /* border: 1px solid ; */
+    /* border: 1px solid red; */
 }
 
 .left-block {
@@ -100,7 +102,7 @@ h1 {
 }
 .input {
     width: 199px;
-    height: 16px;
+    height: 20px;
     border: none;
     font-family: Roboto;
     font-style: normal;
@@ -109,17 +111,25 @@ h1 {
     line-height: 16px;
     display: flex;
     align-items: center;
-
+    /* border: 1px solid red; */
     color: #000000;
 }
-svg {
+.svg-one {
     fill: #C4C4C4;
 }
-svg:hover {
+.svg-one:hover {
     fill: #000000;
     cursor: pointer;
 }
 
+.svg-two {
+    fill: #C4C4C4;
+    display: none;
+}
+.svg-two:hover {
+    fill: #000000;
+    cursor: pointer;
+}
 /* .close {
     position: absolute;
     right: 32px;
@@ -180,7 +190,7 @@ svg:hover {
     background: #833AE0;
 }
 
-.button {
+#button {
     padding: 0px;
     width: 150px;
     height: 42px;
@@ -190,11 +200,22 @@ svg:hover {
     color: white;
     display: flex;
     align-items: center;
-    /* border: 0px; */
+    border: 0px;
 }
-.button:before {
+#button:before {
     width: 42px;
     height: 42px;
     content: url(/image/Group\ 33.svg);
     margin-right: 14px;
+}
+.todos {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    /* border: 1px solid red; */
+}
+.li {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
 }
