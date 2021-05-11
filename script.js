@@ -74,3 +74,22 @@ function newSortedReverse () {
         el.value = arrRevers.shift();
     });
 };
+
+
+// savedGoals.addEventListener('click', (event) => {
+
+//   if (event.target.closest('.arrow')) {
+
+//     // event.currentTarget.querySelectorAll
+
+//     if (event.target.closest('.arrow').dataset.collapsed === 'false') {
+//       event.target.closest('.arrow').dataset.collapsed = 'true';
+//       event.target.closest('.target-card').querySelector('.target-card-hidden-block').style.display = 'block';
+//       event.target.closest('.arrow').style.transform = 'rotate(180deg)';
+//     } else {
+//       event.target.closest('.arrow').dataset.collapsed = 'false';
+//       event.target.closest('.target-card').querySelector('.target-card-hidden-block').style.display = 'none';
+//       event.target.closest('.arrow').style.transform = 'rotate(360deg)';
+//     }
+
+// }});
